@@ -33,6 +33,7 @@
  '(package-selected-packages '(evil auctex pdf-tools))
  '(tool-bar-mode nil))
 
+(add-hook 'TeX-after-compilation-finished-functions #'TeX-revert-document-buffer)
 
 (require 'evil)
 (evil-mode t)
