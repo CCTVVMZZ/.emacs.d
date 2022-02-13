@@ -1,2 +1,3 @@
 # .emacs.d
-A copy of my ".emacs.d" folder
+
+A backup copy of my ".emacs.d" folder in case of another computer crash.
