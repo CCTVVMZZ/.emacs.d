@@ -29,8 +29,11 @@
  '(auto-save-timeout 600)
  '(custom-enabled-themes '(tango-dark))
  '(desktop-save-mode t)
+ '(evil-undo-system 'undo-tree)
+ '(evil-want-fine-undo t)
+ '(global-undo-tree-mode t)
  '(menu-bar-mode nil)
- '(package-selected-packages '(evil auctex pdf-tools))
+ '(package-selected-packages '(undo-tree evil auctex pdf-tools))
  '(tool-bar-mode nil))
 
 (add-hook 'TeX-after-compilation-finished-functions #'TeX-revert-document-buffer)
