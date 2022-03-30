@@ -35,7 +35,8 @@
  '(global-undo-tree-mode t)
  '(menu-bar-mode nil)
  '(mouse-wheel-scroll-amount '(2 ((shift) . 1) ((meta)) ((control) . text-scale)))
- '(package-selected-packages '(undo-tree evil auctex pdf-tools))
+ '(package-selected-packages
+   '(magit php-mode markdown-mode haskell-mode undo-tree evil auctex pdf-tools))
  '(tool-bar-mode nil))
 
 (add-hook 'TeX-after-compilation-finished-functions #'TeX-revert-document-buffer)
