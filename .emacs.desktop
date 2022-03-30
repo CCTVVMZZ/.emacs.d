@@ -1,0 +1,91 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Mar 30 14:27:52 2022
+;; Desktop file format version 208
+;; Emacs version 27.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25156 19656 440368 605000) (desktop . "208") "francoisnicolas@fedora" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-ADBO-Source Code Pro-normal-normal-normal-*-25-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#eeeeec") (background-color . "#2e3436") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 31) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (sticky) (environment) (last-focus-update . t) (frameset--id . "9F80-50A9-B831-4356") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (tabs (current-tab (name . "FirstMissingPositive.py") (explicit-name))) (width . 125) (left + -1) (top . 31)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 128) (min-pixel-width . 150) (min-pixel-height-ignore . 64) (min-pixel-width-ignore . 75) (min-pixel-height-safe . 32) (min-pixel-width-safe . 30)) leaf (pixel-width . 1920) (pixel-height . 979) (total-width . 128) (total-height . 30) (normal-height . 1.0) (normal-width . 1.0) (buffer "installetout.el" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 472) (start . 1)) (next-buffers "installetout.el") (prev-buffers ("installetout.el" 1 472) ("bernoulli.pdf" 1 1) ("bernoulli.synctex.gz" 1 19) ("testsuite.py" 1 267) ("essaiphp.php" 1 1) ("bernoulli.tex" 1 4300) ("*scratch*" 1 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("haske" 0 5 (isearch-regexp-function nil isearch-case-fold-search t)) #("skel" 0 4 (isearch-case-fold-search t isearch-regexp-function nil))))
+(setq regexp-search-ring '(#("magit" 0 5 (isearch-case-fold-search t)) #("php-mode" 0 8 (isearch-case-fold-search t)) #("seg" 0 3 (isearch-case-fold-search t)) #("len" 0 3 (isearch-case-fold-search t)) #("asse" 0 4 (isearch-case-fold-search t)) #("assert" 0 6 (isearch-case-fold-search t)) #("markdown" 0 8 (isearch-case-fold-search t)) #("U" 0 1 (isearch-case-fold-search nil)) #("markd" 0 5 (isearch-case-fold-search t)) #("is_in" 0 5 (isearch-case-fold-search t)) #("usu" 0 3 (isearch-case-fold-search t)) #("askell" 0 6 (isearch-case-fold-search t)) #("ask" 0 3 (isearch-case-fold-search t)) #("has" 0 3 (isearch-case-fold-search t)) #("asl" 0 3 (isearch-case-fold-search t)) #("askel" 0 5 (isearch-case-fold-search t))))
+(setq register-alist '((113) (48 . #("   '(magit php-mode markdown-mode haskell-mode undo-tree evil auctex pdf-tools))\n" 0 81 (fontified t yank-handler (evil-yank-line-handler nil t))))))
+(setq file-name-history '("~/.emacs.d/installetout.el" "~/.emacs.d/init.el" "~/Documents/essaiphp.php" "~/Documents/FirstMissingPositive/README.md" "~/Documents/FirstMissingPositive/testsuite.py" "~/Documents/FirstMissingPositive/#FirstMissingPositive.py#" "~/Documents/FirstMissingPositive/testsuite.py" "~/Documents/FirstMissingPositive/README.md" "~/Documents/FirstMissingPositive/testsuite.py" "~/Documents/FirstMissingPositive/./" "~/Documents/Les-bienheureux-de-la-desolation.txt" "~/Documents/leettruc.py" "~/Documents/bulgarnoulli/toto.hs" "~/Documents/.toto.hs.~undo-tree~" "~/Documents/toto.hs" "~/Documents/./" "~/Documents/Les-bienheureux-de-la-desolation.txt" "~/Documents/On-the-tipping-points-of-Bernoulli-s-inequality/bernoulli.tex" "~/Documents/bulgarnoulli/bernoulli.py" "~/Documents/bulgarnoulli/bernoulli.bib" "~/Documents/currypython.py" "~/Documents/bulgarnoulli/bernoulli.tex" "~/Documents/converging-to-e/converge.tex" "~/Documents/bulgarnoulli/bernoulli.tex" "~/Documents/./" "~/Documents/converging-to-e/bernoulli.tex" "~/Documents/converging-to-e/converge.tex"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/francoisnicolas/.emacs.d/installetout.el"
+  "installetout.el"
+  'emacs-lisp-mode
+  '(eldoc-mode undo-tree-mode TeX-PDF-mode)
+  472
+  '(472 nil)
+  nil
+  nil
+  '((buffer-display-time 25156 19382 604368 252000) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
+  '((mark-ring (471 471))))
+
+(desktop-create-buffer 208
+  "/home/francoisnicolas/Documents/On-the-tipping-points-of-Bernoulli-s-inequality/bernoulli.pdf"
+  "bernoulli.pdf"
+  'pdf-view-mode
+  '(undo-tree-mode TeX-PDF-mode)
+  1
+  '(1 nil)
+  t
+  nil
+  '((buffer-display-time 25156 19175 204904 689000) (buffer-file-coding-system . no-conversion))
+  '((mark-ring (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/francoisnicolas/Documents/On-the-tipping-points-of-Bernoulli-s-inequality/bernoulli.tex"
+  "bernoulli.tex"
+  'latex-mode
+  '(undo-tree-mode flyspell-mode TeX-PDF-mode auto-revert-mode)
+  4300
+  '(4300 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25156 18933 82158 390000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (TeX-master . t))
+  '((mark-ring (4300 4313 4272 2219 2341 4198 4170 4009 4009 2152 4009 4009 4009 4469 4469 4470))))
+
+(desktop-create-buffer 208
+  "/home/francoisnicolas/Documents/essaiphp.php"
+  "essaiphp.php"
+  'php-mode
+  '(abbrev-mode undo-tree-mode TeX-PDF-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-display-time 25156 18773 201055 532000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (fill-column . 70) (case-fold-search . t))
+  '((mark-ring (1 1))))
+
+(desktop-create-buffer 208
+  "/home/francoisnicolas/Documents/FirstMissingPositive/testsuite.py"
+  "testsuite.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode TeX-PDF-mode)
+  267
+  '(267 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 25155 64799 399350 174000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1425 535 1262 1261 847 1262 1262 1262 1262 1262 971 267))))
+
+(desktop-create-buffer 208
+  "/home/francoisnicolas/Documents/On-the-tipping-points-of-Bernoulli-s-inequality/bernoulli.synctex.gz"
+  "bernoulli.synctex.gz"
+  'fundamental-mode
+  '(undo-tree-mode TeX-PDF-mode)
+  19
+  '(19 nil)
+  nil
+  nil
+  '((buffer-display-time 25155 30790 155303 41000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (19 19 19 19 19 19 19 19 19 158095 158095 158095 158095 158095 158095 158095))))
+
