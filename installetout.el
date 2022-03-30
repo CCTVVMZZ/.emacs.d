@@ -14,6 +14,9 @@
 	evil
 	pdf-tools
 	auctex
+	haskell-mode
+	php-mode
+	markdown-mode
 	undo-tree)
       )
 
