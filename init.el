@@ -32,14 +32,17 @@
  '(desktop-save-mode t)
  '(evil-undo-system 'undo-tree)
  '(evil-want-fine-undo t)
+ '(geiser-guile-binary "guile2.2")
  '(global-undo-tree-mode t)
  '(menu-bar-mode nil)
  '(mouse-wheel-scroll-amount '(2 ((shift) . 1) ((meta)) ((control) . text-scale)))
  '(package-selected-packages
-   '(magit php-mode markdown-mode haskell-mode undo-tree evil auctex pdf-tools))
+   '(impatient-mode nodejs-repl geiser-guile magit php-mode markdown-mode haskell-mode undo-tree evil auctex pdf-tools))
+ '(show-paren-mode t)
  '(tool-bar-mode nil))
 
 (add-hook 'TeX-after-compilation-finished-functions #'TeX-revert-document-buffer)
+(add-hook 'haskell-mode-hook 'interactive-haskell-mode)
 
 (require 'evil)
 (evil-mode t)
@@ -49,3 +52,11 @@
 
 (fido-mode)
 
+(add-hook 'js-mode-hook
+             (lambda ()
+                (define-key js-mode-map (kbd "C-x C-e") 'nodejs-repl-send-last-expression)
+                (define-key js-mode-map (kbd "C-c C-j") 'nodejs-repl-send-line)
+                (define-key js-mode-map (kbd "C-c C-r") 'nodejs-repl-send-region)
+                (define-key js-mode-map (kbd "C-c C-c") 'nodejs-repl-send-buffer)
+                (define-key js-mode-map (kbd "C-c C-l") 'nodejs-repl-load-file)
+                (define-key js-mode-map (kbd "C-c C-z") 'nodejs-repl-switch-to-repl)))
